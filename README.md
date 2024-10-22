@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot1.jpg)
-![](./screenshot2.jpg)
+![](/screenshot1.png)
+![](/screenshot2.png)
 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live Site URL](https://jadefurtado.github.io/rating-component/)
 
 ## My process
 
