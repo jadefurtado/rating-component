@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+  <link rel="stylesheet" href="css/style.css">  
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <div class="card-container">
+    <!-- Rating state start -->
+    <div class="card">
+      <div class="card__image">
+        <img src="images/icon-star.svg" alt="icon star">
+      </div>
+      <h2>How did we do?</h2>
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+      <div class="card__buttons">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+      </div><!--card__buttons-->
+      <button type="button" class="submit">submit</button>
+    </div><!--.card-->
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <div class="card-2" >
+      <img src="images/illustration-thank-you.svg" alt="thank you illustration">
+      <span>You selected ?? out of 5</span>
+      <h2>Thank you!</h2>
+      <p>  We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+      </p>
+    </div> <!--.card-2-->
+    <!-- Thank you state end -->
+  </div><!--.card-container-->
+<script src="js/script.js"></script>
+</body>
+</html>
