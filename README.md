@@ -26,7 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot1.jpg)
+![](./screenshot2.jpg)
 
 
 ### Links
@@ -95,7 +96,7 @@ I also had to adjust the position of the cards. I created a `card-container` div
 
 #### pt:
 
-Também tive que ajeitar a posição dos cards. Criei uma div card-container para envolver os dois cards e usei o position: relative. Nos cards, usei o position: absolute para que ocupem exatamente o mesmo espaço dentro desse contêiner.
+Também tive que ajeitar a posição dos cards. Criei uma div `card-container` para envolver os dois cards e usei o `position: relative`. Nos cards, usei o `position: absolute` para que ocupem exatamente o mesmo espaço dentro desse contêiner.
 
 
 
